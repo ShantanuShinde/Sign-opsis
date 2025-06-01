@@ -94,3 +94,16 @@ Develop a tool called **Sign-opsis** that automatically converts the audio from 
 - **Take audio/video in any language**, convert audio/video to text transcript in English, summarize the text, and convert it to a 3D avatar explaining in sign language with text/audio subtitles.
 
 ---
+
+## Steps to run the project:
+### 1. Frontend:
+1. Install node.js in the system.
+2. Open console in the `frontend` directory.
+3. Run the command to install all dependencies: `npm install --legacy-peer-deps`
+4. Start the frontend node js server using: `npm run dev`
+5. The website should open at http://localhost:3000
+
+### 2. Backend:
+1. Open console in the `backend` directory.
+2. Install all the dependencies from the `requirements.txt` file using the command: `pip install -r requirements.txt`.
+3. Start the flask server by running the command `python server.py`.
