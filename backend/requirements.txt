@@ -3,9 +3,10 @@ flask_cors==5.0.1
 langgraph==0.4.7
 matplotlib==3.10.3
 moviepy==2.2.1
-numpy==2.2.6
+numpy==1.26.4
 openai==1.82.1
-openai_whisper==20240930
+openai-whisper==20240930
 opencv_contrib_python==4.11.0.86
 pyvista==0.45.2
-spacy==3.8.4
+spacy==3.7.4   # downgrade to stay compatible with NumPy 1.x
+mediapipe==0.10.21
